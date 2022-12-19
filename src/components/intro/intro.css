@@ -5,7 +5,52 @@
 
 .i-left {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.i-right {
-    flex: 1;
+
+.i-left-wrapper {
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.i-intro {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.i-name{
+    font-size: 60px;
+}
+
+.i-title{
+    height: 50px;
+    overflow: hidden;
+}
+
+.i-title-wrapper{
+    height: 100px;
+    animation: move 10s ease-in-out alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+}
+
+.i-title-item{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    display: flex;
+    align-items: center;
+}
+
+
+
