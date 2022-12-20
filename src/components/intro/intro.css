@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
+    height: 100vh;
   }
   
   .home-content {
@@ -88,3 +89,9 @@
     }
   }
 
+.img-fluid {
+    position: absolute;
+  right: 100px;
+  top: 170px;
+  
+}

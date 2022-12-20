@@ -1,14 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import Type from "./Type"
 import "./intro.css"
+import Me from "../../img/me.png"
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -31,7 +30,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src=""
+                src={Me}
                 alt="Me"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
