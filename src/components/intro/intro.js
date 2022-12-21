@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "./Type"
 import "./intro.css"
-import Me from "../../img/me.png"
+import Me from "../../img/dev2.png"
 
 function Home() {
   return (
