@@ -10,6 +10,18 @@
     padding: 0.3rem 2rem !important;
     font-size: 1.2rem !important;
   }
+
+  .fork-btn-inner {
+    background: transparent;
+    color: #05dbf7;
+    border: 0ch;
+  }
+
+  .fork-btn-inner:hover {
+    background: transparent;
+    border: 0ch;
+    color: #05dbf7;
+  }
   
   .navbar-toggler {
     position: relative !important;
@@ -64,9 +76,9 @@
   
   @media (max-width: 767px) {
     .navbar {
-      padding: .75rem 2rem !important;
+      padding: 0rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: transparent !important;
+      background-color: #060f18 !important;
     }
     .navbar-nav .nav-item a::after {
       display: none !important;
@@ -83,10 +95,11 @@
     margin-top: 8px;
   }
   .navbar-nav .nav-link {
-    color: white !important;
+    color: #05dbf7 !important;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
   }
+
   
   @media (max-width: 767px) {
     .nav-link {
@@ -113,7 +126,7 @@
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #05dbf7;
+    background: #39FF14;
     bottom: 1px;
     left: 0;
     z-index: -1;

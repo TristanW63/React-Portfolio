@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../../img/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -36,7 +36,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex" id="initals">
-         <p className="initals">TW.</p>
+         <p className="initals">TW</p>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -87,13 +87,14 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="star-btn">
+            <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/TristanW63/React-Portfolio"
                 target="_blank"
-                className="star-btn-inner"
+                className="fork-btn-inner"
               >
-                <AiFillStar style={{ fontSize: "1.2em" }} />{" "}
+                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+                <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
           </Nav>
