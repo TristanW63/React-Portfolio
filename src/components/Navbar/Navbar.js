@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../img/logo.png";
+import logo from "../../img/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import {
@@ -35,8 +35,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand href="/" className="d-flex" id="initals">
+         <p className="initals">TW.</p>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -60,7 +60,7 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/about"
-                onClick={() => updateExpanded(flase)}
+                onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> /About
               </Nav.Link>
