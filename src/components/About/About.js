@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Techstack from "./Techstack";
 
 function About() {
     return (
@@ -30,7 +31,7 @@ function About() {
                 <h1 className="project-heading">
                     <strong className="blue">Skillset</strong>
                 </h1>
-                {/* tech stack icons */}
+                <Techstack />
                 {/* github commit calender */}
             </Container>
         </Container>
