@@ -79,7 +79,7 @@
     .navbar {
       padding: 0rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: #060f18 !important;
+      backdrop-filter: blur(15px) !important;
     }
     .navbar-nav .nav-item a::after {
       display: none !important;

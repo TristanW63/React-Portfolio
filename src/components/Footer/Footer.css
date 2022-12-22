@@ -21,6 +21,12 @@
     margin-top: 0.5em !important;
     margin-bottom: 0.5em !important;
   }
+
+  @media (max-width: 767px) {
+    .footer h3 {
+      text-align: center;
+    }
+  }
   .footer-icons {
     margin-top: 0.5em !important;
     margin-bottom: 0.5em !important;

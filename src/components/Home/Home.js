@@ -2,16 +2,19 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "./Type";
 import "./intro.css";
-import Me from "../../img/dev2.png";
+import Me from "../../img/avatar.png";
+import Techstack from "./Techstack";
+import AboutCard from "./AboutCard";
 import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+    AiFillGithub,
+    AiFillInstagram,
+  } from "react-icons/ai";
+  import { FaLinkedinIn } from "react-icons/fa";
+  import Dev from "../../img/devDesk.png"
 
 function Home() {
   return (
-    <section>
+    <section className="background">
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
@@ -33,13 +36,44 @@ function Home() {
               </div>
             </Col>
 
-            {/* <Col md={5} style={{ paddingBottom: 20 }}> */}
+            <Col md={5} style={{ paddingBottom: 20 }}>
             <div>
-              <img src={Me} alt="Me" className="img-fluid" />
+              <img src={Me} alt="Me" className="avatar" />
               </div>
-            {/* </Col> */}
+            </Col>
           </Row>
-          <Row>
+        </Container>
+      </Container>
+      <Container fluid className="about-section">
+            <Container>
+                <Row style={{ justifyContent: "center", padding: "10px" }}>
+                    <Col
+                    md={7}
+                    style={{
+                        justifyContent: "center",
+                        paddingTop: "30px",
+                        paddingBottom: "50px"
+                    }}
+                    >
+                        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+                            About <strong className="blue">Me</strong>
+                        </h1>
+                        <AboutCard />
+                    </Col>
+                    <Col
+                    md={5}
+                    style={{ paddingTop: "120px", paddingBottom: "50px" }}
+                    className="about-img"
+                    >
+                      <img src={Dev} alt="Me" className="devDesk" />
+                    </Col>
+                </Row>
+                <h1 className="project-heading">
+                    <strong className="blue">Skillset</strong>
+                </h1>
+                <Techstack />
+                {/* github commit calender */}
+                <Row>
             <Col md={12} className="home-about-social">
               <h1>FIND <span className="blue">ME</span> ON</h1>
               <p>
@@ -79,8 +113,8 @@ function Home() {
               </ul>
             </Col>
           </Row>
+            </Container>
         </Container>
-      </Container>
     </section>
   );
 }

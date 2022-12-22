@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/components/Navbar/Navbar.css"
 import Footer from "./components/Footer/Footer";
 
+
 const App = () => {
     const [load, updateLoad] = useState(true);
 
@@ -28,7 +29,7 @@ const App = () => {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/" element={<Home />} /> */}
+            {/* <Route path="/about" element={<About />} /> */}
           </Routes>
           <Footer />
         </div>
