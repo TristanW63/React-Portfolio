@@ -33,9 +33,11 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            {/* <Col md={5} style={{ paddingBottom: 20 }}> */}
+            <div>
               <img src={Me} alt="Me" className="img-fluid" />
-            </Col>
+              </div>
+            {/* </Col> */}
           </Row>
           <Row>
             <Col md={12} className="home-about-social">
@@ -46,7 +48,7 @@ function Home() {
               <ul className="home-about-social-links">
                 <li className="social-icons">
                   <a
-                    href="https://github.com/soumyajit4419"
+                    href="https://github.com/TristanW63"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -56,7 +58,7 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://www.linkedin.com/in/soumyajit4419/"
+                    href="https://www.linkedin.com/in/tristan-wilson-web-developer/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -66,7 +68,7 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://www.instagram.com/soumyajit4419"
+                    href="https://www.instagram.com/_tristan63_/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour home-social-icons"
