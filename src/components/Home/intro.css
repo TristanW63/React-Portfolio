@@ -8,6 +8,7 @@
 .card {
   --bs-card-border-color: none !important;
 }
+
 .home-header {
     padding-top: 80px !important;
   }
@@ -147,6 +148,10 @@
 
 .project-heading {
   padding-bottom: 10%;
+}
+
+.githubh1 {
+  text-align: center;
 }
 
 .avatar {

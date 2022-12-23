@@ -11,6 +11,7 @@ import {
   } from "react-icons/ai";
   import { FaLinkedinIn } from "react-icons/fa";
   import Dev from "../../img/devs.png"
+  import Github from "./Github"
 
 function Home() {
   return (
@@ -72,7 +73,7 @@ function Home() {
                     <strong className="blue">Skillset</strong>
                 </h1>
                 <Techstack />
-                {/* github commit calender */}
+                <Github />
                 <Row>
             <Col md={12} className="home-about-social">
               <h1>FIND <span className="blue">ME</span> ON</h1>
