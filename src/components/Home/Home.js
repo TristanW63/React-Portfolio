@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "./Type";
-import "./intro.css";
+import "../../intro.css";
 import Me from "../../img/avatar.png";
 import Techstack from "./Techstack";
 import AboutCard from "./AboutCard";

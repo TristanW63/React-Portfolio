@@ -10,6 +10,8 @@ import Navbar from "./components/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/components/Navbar/Navbar.css"
 import Footer from "./components/Footer/Footer";
+import Projects from "./components/Projects/Projects";
+
 
 
 const App = () => {
@@ -29,7 +31,7 @@ const App = () => {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/about" element={<About />} /> */}
+            <Route path="/project" element={<Projects />} />
           </Routes>
           <Footer />
         </div>
