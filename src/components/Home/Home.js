@@ -10,7 +10,7 @@ import {
     AiFillInstagram,
   } from "react-icons/ai";
   import { FaLinkedinIn } from "react-icons/fa";
-  import Dev from "../../img/devDesk.png"
+  import Dev from "../../img/devs.png"
 
 function Home() {
   return (
