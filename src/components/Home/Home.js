@@ -69,8 +69,8 @@ function Home() {
                       <img src={Dev} alt="Me" className="devDesk" />
                     </Col>
                 </Row>
-                <h1 className="project-heading">
-                    <strong className="blue">Skillset</strong>
+                <h1 className="githubh1">
+                    Professional <strong className="blue">Skillset</strong>
                 </h1>
                 <Techstack />
                 <Github />
