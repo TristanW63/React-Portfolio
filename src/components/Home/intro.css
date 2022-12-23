@@ -2,6 +2,11 @@
   background-image: url(../../img/holographic-circuit-board-0amzahbmmp2bg9u6.jpg);
   background-attachment: fixed;
   z-index: 1;
+  border: none;
+}
+
+.card {
+  --bs-card-border-color: none !important;
 }
 .home-header {
     padding-top: 80px !important;
@@ -152,6 +157,14 @@
 
 .devDesk {
   height: 70%;
+  float: right;
+}
+
+@media (max-width: 991px) {
+  .devDesk {
+    height: 50%;
+    float: right;
+  }
 }
 
 @media (max-width: 767px) {
