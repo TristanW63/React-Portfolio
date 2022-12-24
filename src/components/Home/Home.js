@@ -5,13 +5,10 @@ import "../../intro.css";
 import Me from "../../img/avatar.png";
 import Techstack from "./Techstack";
 import AboutCard from "./AboutCard";
-import {
-    AiFillGithub,
-    AiFillInstagram,
-  } from "react-icons/ai";
-  import { FaLinkedinIn } from "react-icons/fa";
-  import Dev from "../../img/devs.png"
-  import Github from "./Github"
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import Dev from "../../img/devs.png";
+import Github from "./Github";
 
 function Home() {
   return (
@@ -38,47 +35,51 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-            <div>
-              <img src={Me} alt="Me" className="avatar" />
+              <div>
+                <img src={Me} alt="Me" className="avatar" />
               </div>
             </Col>
           </Row>
         </Container>
       </Container>
       <Container fluid className="about-section">
-            <Container>
-                <Row style={{ justifyContent: "center", padding: "10px" }}>
-                    <Col
-                    md={7}
-                    style={{
-                        justifyContent: "center",
-                        paddingTop: "30px",
-                        paddingBottom: "50px"
-                    }}
-                    >
-                        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                            About <strong className="blue">Me</strong>
-                        </h1>
-                        <AboutCard />
-                    </Col>
-                    <Col
-                    md={5}
-                    style={{ paddingTop: "120px", paddingBottom: "50px" }}
-                    className="about-img"
-                    >
-                      <img src={Dev} alt="Me" className="devDesk" />
-                    </Col>
-                </Row>
-                <h1 className="githubh1">
-                    Professional <strong className="blue">Skillset</strong>
-                </h1>
-                <Techstack />
-                <Github />
-                <Row>
+        <Container>
+          <Row style={{ justifyContent: "center", padding: "10px" }}>
+            <Col
+              md={7}
+              style={{
+                justifyContent: "center",
+                paddingTop: "30px",
+                paddingBottom: "50px",
+              }}
+            >
+              <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+                About <strong className="blue">Me</strong>
+              </h1>
+              <AboutCard />
+            </Col>
+            <Col
+              md={5}
+              style={{ paddingTop: "120px", paddingBottom: "50px" }}
+              className="about-img"
+            >
+              <img src={Dev} alt="Me" className="devDesk" />
+            </Col>
+          </Row>
+          <h1 className="githubh1">
+            Professional <strong className="blue">Skillset</strong>
+          </h1>
+          <Techstack />
+          <Github />
+          <Row>
             <Col md={12} className="home-about-social">
-              <h1>FIND <span className="blue">ME</span> ON</h1>
+              <h1>
+                FIND <span className="blue">ME</span> ON
+              </h1>
               <p>
-                <span className="blue">Feel</span> free to <span className="blue">connect </span>with <span className="blue">me</span>
+                <span className="blue">Feel</span> free to{" "}
+                <span className="blue">connect </span>with{" "}
+                <span className="blue">me</span>
               </p>
               <ul className="home-about-social-links">
                 <li className="social-icons">
@@ -114,8 +115,8 @@ function Home() {
               </ul>
             </Col>
           </Row>
-            </Container>
         </Container>
+      </Container>
     </section>
   );
 }
