@@ -7,3 +7,17 @@
     z-index: 1;
     height: 95vh;
   }
+
+  .formText {
+    color: aliceblue;
+  }
+
+  .contact-heading{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .names {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
