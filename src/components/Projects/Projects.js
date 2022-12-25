@@ -11,17 +11,16 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
-        <h1 className="project-heading">
+        <h1 className="project-heading" style={{ textAlign: "center" }}>
           My Recent <strong className="blue">Works</strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "white", textAlign: "center" }}>
           Here are a few projects i've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DadJokes}
-              isBlog={false}
               title="DadJokes"
               description=""
               ghLink="https://github.com/jswearingen18/DadJokesGalore"
@@ -31,7 +30,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Randamu}
-              isBlog={false}
               title="Randamu"
               description=""
               ghLink="https://github.com/cmash93/Randamu"
@@ -41,7 +39,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Scheduler}
-              isBlog={false}
               title="Scheduler"
               description=""
               ghLink="https://github.com/TristanW63/Schedular"
@@ -51,9 +48,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TextEditor}
-              isBlog={false}
               title="TextEditor"
-              description=""
+              description="Text editor is a full stack web application that allows you to add text into
+               the command line and it be saved in to the database. Once you close and reopen the app your
+                input will be displayed again. Youre also able to down load this application to you device and use it offline."
               ghLink="https://github.com/TristanW63/textEditor"
               demoLink="https://justtexteditor.herokuapp.com/"
             />
@@ -61,7 +59,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Weather}
-              isBlog={false}
               title="Weather App"
               description=""
               ghLink="https://github.com/TristanW63/Weather-Dashboard"
