@@ -1,0 +1,9 @@
+.form {
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    background-image: url(../../img/holographic-circuit-board-0amzahbmmp2bg9u6.jpg);
+    background-attachment: fixed;
+    z-index: 1;
+    height: 95vh;
+  }

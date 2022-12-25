@@ -12,6 +12,7 @@ import "../src/components/Navbar/Navbar.css"
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
+import Contact from "./components/Contact/Contact";
 
 
 
@@ -34,6 +35,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/project" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
           <Footer />
         </div>
