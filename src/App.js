@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/components/Navbar/Navbar.css"
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
+import Resume from "./components/Resume/Resume";
 
 
 
@@ -32,6 +33,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/project" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
           <Footer />
         </div>
