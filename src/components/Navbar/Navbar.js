@@ -93,6 +93,7 @@ function NavBar() {
                 href="https://github.com/TristanW63/React-Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
+                id="fork-btn"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />

@@ -22,7 +22,8 @@ function Projects() {
             <ProjectCard
               imgPath={DadJokes}
               title="DadJokes"
-              description=""
+              description="Social media platform for Dadjokes! Create an account an post a joke. you can
+              also like or dislike other peoples jokes and it will be added to the database."
               ghLink="https://github.com/jswearingen18/DadJokesGalore"
               demoLink="https://dadjokesgalore.herokuapp.com/"
             />
@@ -31,7 +32,8 @@ function Projects() {
             <ProjectCard
               imgPath={Randamu}
               title="Randamu"
-              description=""
+              description="Food and drink generator that displays five different food and drink recipes.
+              Each recipe will display all ingredients, ingredient amounts, and cooking instructions."
               ghLink="https://github.com/cmash93/Randamu"
               demoLink="https://cmash93.github.io/Randamu/"
             />
@@ -40,7 +42,8 @@ function Projects() {
             <ProjectCard
               imgPath={Scheduler}
               title="Scheduler"
-              description=""
+              description="This is a Work Day schedular to help plan your days. It will show you todays date
+              and the hours for the day. Each hour is color coded for past, present and future. Keep track of your day the right way!"
               ghLink="https://github.com/TristanW63/Schedular"
               demoLink="https://tristanw63.github.io/Schedular/"
             />
@@ -50,8 +53,8 @@ function Projects() {
               imgPath={TextEditor}
               title="TextEditor"
               description="Text editor is a full stack web application that allows you to add text into
-               the command line and it be saved in to the database. Once you close and reopen the app your
-                input will be displayed again. Youre also able to down load this application to you device and use it offline."
+               the command line and it be saved in to the database. Youre also able to down load this application 
+               to you device and use it offline."
               ghLink="https://github.com/TristanW63/textEditor"
               demoLink="https://justtexteditor.herokuapp.com/"
             />
@@ -60,7 +63,8 @@ function Projects() {
             <ProjectCard
               imgPath={Weather}
               title="Weather App"
-              description=""
+              description="This project is to help see the weather in any location that the user searches.
+               it provides current tempature, wind speed, humidity and uv index. It also provides a five days forcast"
               ghLink="https://github.com/TristanW63/Weather-Dashboard"
               demoLink="https://tristanw63.github.io/Weather-Dashboard/"
             />

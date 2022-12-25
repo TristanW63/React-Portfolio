@@ -16,7 +16,11 @@
     height: 100% !important;
     backdrop-filter: blur(14px);
   }
-  
+
+  .desc {
+    text-align: center;
+  }
+
   .project-card {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
@@ -36,12 +40,12 @@
     border-radius: 15px !important;
   }
   
-  .btn-primary {
+  .btn-success {
     color: #fff !important;
     background-color: #05dbf7 !important;
   } 
   
-   .btn-primary:hover {
+   .btn-success:hover {
     transform: scale(1.1);
     color: #fff !important;
     background-color: #05dbf7 !important;

@@ -24,18 +24,18 @@ function ProjectCards(props) {
         >
           {props.title}
         </Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text className="desc">
           {props.description}
         </Card.Text>
         <div style={{ textAlign: "center" }}>
-          <Button variant="primary" href={props.ghLink} target="_blank">
+          <Button variant="success" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;
             {"Github"}
           </Button>
           {"\n"}
           {"\n"}
           <Button
-            variant="primary"
+            variant="success"
             href={props.demoLink}
             target="_blank"
             style={{ marginLeft: "10px" }}
