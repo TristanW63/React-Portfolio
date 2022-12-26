@@ -4,8 +4,8 @@
     padding-bottom: 30px !important;
     background-image: url(../../img/holographic-circuit-board-0amzahbmmp2bg9u6.jpg);
     background-attachment: fixed;
+    height: 100vh;
     z-index: 1;
-    height: 95vh;
   }
 
   .formText {
