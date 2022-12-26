@@ -55,7 +55,7 @@ export const Contact = () => {
             <Form noValidate validated={validated} ref={form} onSubmit={handleSubmit}>
       <Row className="mb-3">
         <Form.Group as={Col} md="4" controlId="validationCustom01">
-          <Form.Label className="blue">First Name</Form.Label>
+          <Form.Label className="blue" id="formNames" style={{ paddingTop: "10px" }}>First Name</Form.Label>
           <Form.Control
             type="text"
             placeholder="First Name"
@@ -65,7 +65,7 @@ export const Contact = () => {
           <Form.Control.Feedback type="invalid">Please input name</Form.Control.Feedback>
         </Form.Group>
         <Form.Group as={Col} md="4" controlId="validationCustom01">
-          <Form.Label className="blue">Last Name</Form.Label>
+          <Form.Label className="blue" style={{ paddingTop: "10px" }}>Last Name</Form.Label>
           <Form.Control
             type="text"
             placeholder="Last Name"
@@ -75,7 +75,7 @@ export const Contact = () => {
           <Form.Control.Feedback type="invalid">Please input name</Form.Control.Feedback>
         </Form.Group>
        <Form.Group as={Col} md="4" controlId="validationEmail">
-          <Form.Label className="blue">Email</Form.Label>
+          <Form.Label className="blue" style={{ paddingTop: "10px" }}>Email</Form.Label>
           <InputGroup hasValidation>
             <Form.Control
               type="email"
@@ -90,7 +90,7 @@ export const Contact = () => {
           </InputGroup>
         </Form.Group>
         <Form.Group>
-          <Form.Label className="blue">Message</Form.Label>
+          <Form.Label className="blue" style={{ paddingTop: "10px" }}>Message</Form.Label>
           <InputGroup>
             <Form.Control
               type="text"
