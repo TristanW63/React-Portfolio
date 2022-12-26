@@ -24,9 +24,7 @@ function ProjectCards(props) {
         >
           {props.title}
         </Card.Title>
-        <Card.Text className="desc">
-          {props.description}
-        </Card.Text>
+        <Card.Text className="desc">{props.description}</Card.Text>
         <div style={{ textAlign: "center" }}>
           <Button variant="success" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;

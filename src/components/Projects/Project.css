@@ -1,62 +1,62 @@
 .project-section {
-    position: relative !important;
-    padding-top: 150px !important;
-    padding-bottom: 30px !important;
-    background-image: url(../../img/holographic-circuit-board-0amzahbmmp2bg9u6.jpg);
-    background-attachment: fixed;
-    z-index: 1;
-  }
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: url(../../img/holographic-circuit-board-0amzahbmmp2bg9u6.jpg);
+  background-attachment: fixed;
+  z-index: 1;
+}
 
- #project-card-veiw {
-    box-shadow: 0 4px 5px 3px #05dbf7 !important;
-    color: white !important;
-    background-color: transparent !important;
-    opacity: 0.9 !important;
-    transition: all 0.5s ease 0s !important;
-    height: 100% !important;
-    backdrop-filter: blur(14px);
-  }
+#project-card-veiw {
+  box-shadow: 0 4px 5px 3px #05dbf7 !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  backdrop-filter: blur(14px);
+}
 
-  .desc {
-    text-align: center;
-  }
+.desc {
+  text-align: center;
+}
 
-  .project-card {
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    height: auto !important;
-  }
-  
-  #project-card-view:hover {
-    transform: scale(1.02) !important;
-    overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
-  }
- 
-  #project-img {
-    padding: 20px !important;
-    border-radius: 15px !important;
-  }
-  
-  .btn-success {
-    color: #fff !important;
-    background-color: #05dbf7 !important;
-  } 
-  
-   .btn-success:hover {
-    transform: scale(1.1);
-    color: #fff !important;
-    background-color: #05dbf7 !important;
-  }
-  .btn:focus {
-    outline: none !important;
-    box-shadow: none !important;
-  }
-  .project-heading {
-    color: white !important;
-    font-size: 2.3em !important;
-    font-weight: 500 !important;
-    padding-top: 10px !important;
-  }
+.project-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+
+#project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+#project-img {
+  padding: 20px !important;
+  border-radius: 15px !important;
+}
+
+.btn-success {
+  color: #fff !important;
+  background-color: #05dbf7 !important;
+}
+
+.btn-success:hover {
+  transform: scale(1.1);
+  color: #fff !important;
+  background-color: #05dbf7 !important;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.project-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}

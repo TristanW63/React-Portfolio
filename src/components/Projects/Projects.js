@@ -11,7 +11,10 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
-        <h1 className="project-heading" style={{ textAlign: "center", fontSize: "3rem" }}>
+        <h1
+          className="project-heading"
+          style={{ textAlign: "center", fontSize: "3rem" }}
+        >
           My Recent <strong className="blue">Works</strong>
         </h1>
         <p style={{ color: "white", textAlign: "center", fontSize: "2rem" }}>

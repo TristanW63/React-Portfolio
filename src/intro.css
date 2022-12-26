@@ -5,95 +5,94 @@
   border: none;
 }
 
-
 .home-header {
-    padding-top: 80px !important;
-  }
-  
-  .home-content {
-    padding: 9rem 0 2rem !important;
-    color: whitesmoke;
-    text-align: left;
-  }
-  
-  .heading {
-    font-size: 2.4em !important;
-    padding-left: 50px !important;
-  }
-  
-  .heading-name {
-    font-size: 2.5em !important;
-    padding-left: 45px !important;
-  }
-  
-  .main-name {
-    color: #05dbf7;
-  }
-  
+  padding-top: 80px !important;
+}
+
+.home-content {
+  padding: 9rem 0 2rem !important;
+  color: whitesmoke;
+  text-align: left;
+}
+
+.heading {
+  font-size: 2.4em !important;
+  padding-left: 50px !important;
+}
+
+.heading-name {
+  font-size: 2.5em !important;
+  padding-left: 45px !important;
+}
+
+.main-name {
+  color: #05dbf7;
+}
+
+.Typewriter__wrapper {
+  font-size: 2.2em !important;
+  color: #39ff14 !important;
+  font-weight: 600 !important;
+}
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #39ff14 !important;
+}
+
+@media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 2.2em !important;
-    color: #39FF14 !important;
-    font-weight: 600 !important;
+    font-size: 1.9em !important;
+    font-weight: 500 !important;
+    position: absolute !important;
   }
   .Typewriter__cursor {
-    font-size: 2.4em !important;
-    color: #39FF14 !important;
+    display: none !important;
   }
-  
-  @media (max-width: 767px) {
-    .Typewriter__wrapper {
-      font-size: 1.9em !important;
-      font-weight: 500 !important;
-      position: absolute !important;
-    }
-    .Typewriter__cursor {
-      display: none !important;
-    }
-  }
+}
 
-  .wave {
-    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.1s; /* Change to speed up or slow down */
-    animation-iteration-count: infinite; /* Never stop waving :) */
-    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-    display: inline-block;
-  }
-  
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
 @keyframes wave-animation {
-    0% {
-      transform: rotate(0deg);
-    }
-    10% {
-      transform: rotate(14deg);
-    } /* The following five values can be played with to make the waving more or less extreme */
-    20% {
-      transform: rotate(-8deg);
-    }
-    30% {
-      transform: rotate(14deg);
-    }
-    40% {
-      transform: rotate(-4deg);
-    }
-    50% {
-      transform: rotate(10deg);
-    }
-    60% {
-      transform: rotate(0deg);
-    } /* Reset for the last half to pause */
-    100% {
-      transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
   }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
 .img-fluid {
-    position: absolute;
+  position: absolute;
   right: 100px;
   top: 170px;
 }
 
 .blue {
-  color: #05dbf7
+  color: #05dbf7;
 }
 
 .home-about-social {
@@ -123,7 +122,7 @@
 }
 
 .home-social-icons:hover {
-  box-shadow: 0 0 25px #39FF14!important;
+  box-shadow: 0 0 25px #39ff14 !important;
 }
 
 .social-icons {
