@@ -21,3 +21,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
+  #messageDisplay {
+    font-size: 2rem;
+    color: white;
+    padding-top: 20px;
+  }

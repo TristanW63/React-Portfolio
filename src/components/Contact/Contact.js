@@ -12,6 +12,7 @@ import emailjs from '@emailjs/browser';
 export const Contact = () => {
   const [validated, setValidated] = useState(false);
   const form = useRef();
+  const [isShown, setIsShown] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -25,12 +26,13 @@ export const Contact = () => {
       )
       .then(
         () => {
-          alert("Your message has been sent.");
+          // alert("Your message has been sent.");
+          setIsShown(current => !current);
           setValidated(false);
           e.target.reset();
         },
         (error) => {
-          alert("There was a problem sending your message.", error);
+          // alert("There was a problem sending your message.", error);
         }
       );
   };
@@ -42,6 +44,7 @@ export const Contact = () => {
       event.stopPropagation();
     } else {
       sendEmail(event);
+      // sent.classList.remove('sent')
     }
     setValidated(true);
   };
@@ -60,7 +63,7 @@ export const Contact = () => {
             type="text"
             placeholder="First Name"
             name="first_name"
-
+            required
           />
           <Form.Control.Feedback type="invalid">Please input name</Form.Control.Feedback>
         </Form.Group>
@@ -70,7 +73,7 @@ export const Contact = () => {
             type="text"
             placeholder="Last Name"
             name="last_name"
-
+            required
           />
           <Form.Control.Feedback type="invalid">Please input name</Form.Control.Feedback>
         </Form.Group>
@@ -103,6 +106,7 @@ export const Contact = () => {
       </Row>
       <Button type="submit" value="Send">Submit form</Button>
     </Form>
+    <p style={{display: isShown ? 'block' : 'none'}} id="messageDisplay" >Message <strong className="blue">Successfully</strong> sent!</p>
     </Container>
     </Container>
   );
