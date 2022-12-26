@@ -16,6 +16,18 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const [key, setKey] = useState('first');
+
+  const ActiveStyle ={
+  background: "#39FF14",
+  height: "5px",
+  position: "relative",
+  borderRadius: "16px",
+  };
+
+  const inActiveStyle = {
+    // background: "blue"
+  }
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -49,9 +61,14 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav className="ms-auto" activeKey={key} onClick={key => setKey(key)}>
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+               as={Link} 
+               to="/" 
+               onClick={() => updateExpanded(false)}
+               eventKey="first" style={key === "first" ? ActiveStyle : inActiveStyle}
+               >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> /About Me
               </Nav.Link>
             </Nav.Item>
@@ -62,6 +79,7 @@ function NavBar() {
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
+                eventKey="second" style={key === "second" ? ActiveStyle : inActiveStyle}
               >
                 <AiOutlineFundProjectionScreen style={{ margin: "2px" }} />{" "}
                 /Portfolio

@@ -222,3 +222,21 @@
 #quote-card-veiw {
   border: none;
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #03464ee5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #05dbf7;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #05dbf7;
+  border-radius: 12px;
+}
