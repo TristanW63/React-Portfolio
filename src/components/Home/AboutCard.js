@@ -8,7 +8,7 @@ function AboutCard() {
     <Card className="quote-card-veiw" id="quote-card-veiw">
       <Card.Body className="background">
         <blockquote className="blockquote md-0">
-          <p style={{ textAlign: "justify" }}>
+          <p>
             Hi all, I am <span className="blue">Tristan Wilson </span>
             from <span className="blue">Nashville, TN. </span>
             <br /> I am a <span className="blue">

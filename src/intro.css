@@ -110,7 +110,7 @@
 }
 
 .home-social-icons {
-  display: inline-block !important;
+  display: block !important;
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
@@ -119,6 +119,13 @@
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+}
+
+@media (max-width: 767px) {
+  .home-social-icons{
+    line-height: 0.9em !important;
+   padding-inline:initial !important;
+  }
 }
 
 .home-social-icons:hover {
