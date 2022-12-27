@@ -2,11 +2,8 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { NavLink } from "react-router-dom";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -15,37 +12,9 @@ import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
-  const [navColour, updateNavbar] = useState(false);
-  // const [key, setKey] = useState("first");
-
-  // const ActiveStyle = {
-  //   background: "#39FF14",
-  //   height: "5px",
-  //   position: "relative",
-  //   borderRadius: "16px",
-  // };
-
-  // const inActiveStyle = {
-  //   // background: "blue"
-  // };
-
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
-
-  window.addEventListener("scroll", scrollHandler);
 
   return (
-    <Navbar
-      expanded={expand}
-      fixed="top"
-      expand="md"
-      className={navColour ? "sticky" : "navbar"}
-    >
+    <Navbar expanded={expand} fixed="top" expand="md" className="navbar">
       <Container>
         <Navbar.Brand href="/" className="d-flex" id="initals">
           <p className="initals">TW.</p>
@@ -63,52 +32,28 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <NavLink to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> /About Me
-              </Nav.Link>
+              </NavLink>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
+              <NavLink to="/project" onClick={() => updateExpanded(false)}>
                 <AiOutlineFundProjectionScreen style={{ margin: "2px" }} />{" "}
                 /Portfolio
-              </Nav.Link>
+              </NavLink>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <NavLink to="/resume" onClick={() => updateExpanded(false)}>
                 <CgFileDocument style={{ margin: "2px" }} /> /Resume
-              </Nav.Link>
+              </NavLink>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/contact"
-                onClick={() => updateExpanded(false)}
-              >
+              <NavLink to="/contact" onClick={() => updateExpanded(false)}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> /Contact
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/TristanW63/React-Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-                id="fork-btn"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
+              </NavLink>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

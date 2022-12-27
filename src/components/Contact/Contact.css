@@ -1,33 +1,33 @@
 .form {
-    position: relative !important;
-    padding-top: 150px !important;
-    padding-bottom: 30px !important;
-    background-image: url(../../img/holographic-circuit-board-0amzahbmmp2bg9u6.jpg);
-    background-attachment: fixed;
-    height: 100vh;
-    z-index: 1;
-  }
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: url(../../img/holographic-circuit-board-0amzahbmmp2bg9u6.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  z-index: 1;
+}
 
-  .formText {
-    color: aliceblue;
-  }
+.formText {
+  color: aliceblue;
+}
 
-  .contact-heading{
-    padding-top: 20px;
-    padding-bottom: 40px;
-  }
+.contact-heading {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 
-  .names {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+.names {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-  #messageDisplay {
-    font-size: 2rem;
-    color: white;
-    padding-top: 20px;
-  }
+#messageDisplay {
+  font-size: 2rem;
+  color: white;
+  padding-top: 20px;
+}
 
-  #contact-btn {
-    background-color: #05dbf7;
-  }
+#contact-btn {
+  background-color: #05dbf7;
+}
