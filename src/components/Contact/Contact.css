@@ -13,7 +13,6 @@
 }
 
 .contact-heading {
-  /* padding-top: 10px; */
   padding-bottom: 20px;
 }
 
@@ -25,7 +24,6 @@
 #messageDisplay {
   font-size: 1.5rem;
   color: white;
-  /* padding-top: 20px; */
 }
 
 #contact-btn {
