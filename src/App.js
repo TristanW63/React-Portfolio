@@ -26,7 +26,7 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/React-Portfolio">
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <Routes>
