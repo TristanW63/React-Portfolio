@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.43c68a32.css",
-    "main.js": "/React-Portfolio/static/js/main.f85b4183.js",
-    "static/media/Randamu2.png": "/React-Portfolio/static/media/Randamu2.2e3a3ac3ed3f6998122e.png",
-    "static/media/Weather.png": "/React-Portfolio/static/media/Weather.21915e224e437cc3daf5.png",
-    "static/media/resumePic.png": "/React-Portfolio/static/media/resumePic.7ca6b79561538ed910cd.png",
-    "static/media/devDesk.png": "/React-Portfolio/static/media/devDesk.87ce4542da2e1aa09ff3.png",
-    "static/media/devs.png": "/React-Portfolio/static/media/devs.501ff32de07ab8036205.png",
-    "static/media/Dadjokes.png": "/React-Portfolio/static/media/Dadjokes.37cd1c26b27471b82a4b.png",
-    "static/media/holographic-circuit-board-0amzahbmmp2bg9u6.jpg": "/React-Portfolio/static/media/holographic-circuit-board-0amzahbmmp2bg9u6.48ab83838a46c384fae7.jpg",
-    "static/media/TristanWilson.pdf": "/React-Portfolio/static/media/TristanWilson.44fc3110b4fd28c79c18.pdf",
-    "static/media/Scheduler.png": "/React-Portfolio/static/media/Scheduler.fe117852b3501b496587.png",
-    "static/media/avatar.png": "/React-Portfolio/static/media/avatar.0d2093fa9b58efb49377.png",
-    "static/media/TextEditor.png": "/React-Portfolio/static/media/TextEditor.ecffe3de510a753f807c.png",
-    "index.html": "/React-Portfolio/index.html",
-    "main.43c68a32.css.map": "/React-Portfolio/static/css/main.43c68a32.css.map",
-    "main.f85b4183.js.map": "/React-Portfolio/static/js/main.f85b4183.js.map"
+    "main.css": "/TristanW63/React-Portfolio/static/css/main.2876396f.css",
+    "main.js": "/TristanW63/React-Portfolio/static/js/main.fda4365e.js",
+    "static/media/Randamu2.png": "/TristanW63/React-Portfolio/static/media/Randamu2.2e3a3ac3ed3f6998122e.png",
+    "static/media/Weather.png": "/TristanW63/React-Portfolio/static/media/Weather.21915e224e437cc3daf5.png",
+    "static/media/resumePic.png": "/TristanW63/React-Portfolio/static/media/resumePic.7ca6b79561538ed910cd.png",
+    "static/media/devDesk.png": "/TristanW63/React-Portfolio/static/media/devDesk.87ce4542da2e1aa09ff3.png",
+    "static/media/devs.png": "/TristanW63/React-Portfolio/static/media/devs.501ff32de07ab8036205.png",
+    "static/media/Dadjokes.png": "/TristanW63/React-Portfolio/static/media/Dadjokes.37cd1c26b27471b82a4b.png",
+    "static/media/holographic-circuit-board-0amzahbmmp2bg9u6.jpg": "/TristanW63/React-Portfolio/static/media/holographic-circuit-board-0amzahbmmp2bg9u6.48ab83838a46c384fae7.jpg",
+    "static/media/TristanWilson.pdf": "/TristanW63/React-Portfolio/static/media/TristanWilson.44fc3110b4fd28c79c18.pdf",
+    "static/media/Scheduler.png": "/TristanW63/React-Portfolio/static/media/Scheduler.fe117852b3501b496587.png",
+    "static/media/avatar.png": "/TristanW63/React-Portfolio/static/media/avatar.0d2093fa9b58efb49377.png",
+    "static/media/TextEditor.png": "/TristanW63/React-Portfolio/static/media/TextEditor.ecffe3de510a753f807c.png",
+    "index.html": "/TristanW63/React-Portfolio/index.html",
+    "main.2876396f.css.map": "/TristanW63/React-Portfolio/static/css/main.2876396f.css.map",
+    "main.fda4365e.js.map": "/TristanW63/React-Portfolio/static/js/main.fda4365e.js.map"
   },
   "entrypoints": [
-    "static/css/main.43c68a32.css",
-    "static/js/main.f85b4183.js"
+    "static/css/main.2876396f.css",
+    "static/js/main.fda4365e.js"
   ]
 }
