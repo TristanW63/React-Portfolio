@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.43c68a32.css",
-    "main.js": "/React-Portfolio/static/js/main.0c7718f6.js",
+    "main.js": "/React-Portfolio/static/js/main.12820488.js",
     "static/media/Randamu2.png": "/React-Portfolio/static/media/Randamu2.2e3a3ac3ed3f6998122e.png",
     "static/media/Weather.png": "/React-Portfolio/static/media/Weather.21915e224e437cc3daf5.png",
     "static/media/resumePic.png": "/React-Portfolio/static/media/resumePic.7ca6b79561538ed910cd.png",
-    "static/media/devDesk.png": "/React-Portfolio/static/media/devDesk.87ce4542da2e1aa09ff3.png",
     "static/media/devs.png": "/React-Portfolio/static/media/devs.501ff32de07ab8036205.png",
     "static/media/Dadjokes.png": "/React-Portfolio/static/media/Dadjokes.37cd1c26b27471b82a4b.png",
     "static/media/holographic-circuit-board-0amzahbmmp2bg9u6.jpg": "/React-Portfolio/static/media/holographic-circuit-board-0amzahbmmp2bg9u6.48ab83838a46c384fae7.jpg",
@@ -15,10 +14,10 @@
     "static/media/TextEditor.png": "/React-Portfolio/static/media/TextEditor.ecffe3de510a753f807c.png",
     "index.html": "/React-Portfolio/index.html",
     "main.43c68a32.css.map": "/React-Portfolio/static/css/main.43c68a32.css.map",
-    "main.0c7718f6.js.map": "/React-Portfolio/static/js/main.0c7718f6.js.map"
+    "main.12820488.js.map": "/React-Portfolio/static/js/main.12820488.js.map"
   },
   "entrypoints": [
     "static/css/main.43c68a32.css",
-    "static/js/main.0c7718f6.js"
+    "static/js/main.12820488.js"
   ]
 }
