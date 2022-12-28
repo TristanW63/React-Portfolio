@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/github.io/React-Portfolio/static/css/main.bb67b751.css",
-    "main.js": "/github.io/React-Portfolio/static/js/main.242cf38c.js",
+    "main.js": "/github.io/React-Portfolio/static/js/main.6b788333.js",
     "static/media/Randamu2.png": "/github.io/React-Portfolio/static/media/Randamu2.2e3a3ac3ed3f6998122e.png",
     "static/media/Weather.png": "/github.io/React-Portfolio/static/media/Weather.21915e224e437cc3daf5.png",
     "static/media/resumePic.png": "/github.io/React-Portfolio/static/media/resumePic.7ca6b79561538ed910cd.png",
@@ -15,10 +15,10 @@
     "static/media/TextEditor.png": "/github.io/React-Portfolio/static/media/TextEditor.ecffe3de510a753f807c.png",
     "index.html": "/github.io/React-Portfolio/index.html",
     "main.bb67b751.css.map": "/github.io/React-Portfolio/static/css/main.bb67b751.css.map",
-    "main.242cf38c.js.map": "/github.io/React-Portfolio/static/js/main.242cf38c.js.map"
+    "main.6b788333.js.map": "/github.io/React-Portfolio/static/js/main.6b788333.js.map"
   },
   "entrypoints": [
     "static/css/main.bb67b751.css",
-    "static/js/main.242cf38c.js"
+    "static/js/main.6b788333.js"
   ]
 }
