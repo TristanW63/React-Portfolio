@@ -57,6 +57,9 @@ export const Contact = () => {
           Feel free to <strong className="blue">Contact Me</strong> with any
           inquires!
         </h1>
+        <p style={{ display: isShown ? "block" : "none" }} id="messageDisplay">
+          Message <strong className="blue">Successfully</strong> sent!
+        </p>
         <Form
           noValidate
           validated={validated}
@@ -117,12 +120,13 @@ export const Contact = () => {
               <Form.Label className="blue" style={{ paddingTop: "10px" }}>
                 Message
               </Form.Label>
-              <InputGroup>
+              <InputGroup hasValidation>
                 <Form.Control
                   type="text"
                   placeholder="Message"
                   aria-describedby="inputGroupPrepend"
                   name="message"
+                  required
                 />
               </InputGroup>
             </Form.Group>
@@ -131,9 +135,6 @@ export const Contact = () => {
             Submit form
           </Button>
         </Form>
-        <p style={{ display: isShown ? "block" : "none" }} id="messageDisplay">
-          Message <strong className="blue">Successfully</strong> sent!
-        </p>
       </Container>
     </Container>
   );
