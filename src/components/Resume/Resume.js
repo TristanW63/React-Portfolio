@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import  Card from "react-bootstrap/Card";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "./TristanWilson.pdf";
+import pdf from "./Tristan Wilson (1).pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
