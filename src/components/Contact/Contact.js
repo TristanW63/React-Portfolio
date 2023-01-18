@@ -57,6 +57,7 @@ export const Contact = () => {
           Feel free to <strong className="blue">Contact Me</strong> with any
           inquires!
         </h1>
+        <a style={{ fontSize: "2rem", textDecoration: "none"}} href="mailto:tristanawilson63@gmail.com" target="_blank"><span style={{color: "white"}}>Email Me</span> <span className="blue">Here</span></a>
         <p style={{ display: isShown ? "block" : "none" }} id="messageDisplay">
           Message <strong className="blue">Successfully</strong> sent!
         </p>
