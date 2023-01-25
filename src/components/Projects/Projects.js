@@ -6,6 +6,7 @@ import DadJokes from "../../img/Projects/Dadjokes.png";
 import Scheduler from "../../img/Projects/Scheduler.png";
 import TextEditor from "../../img/Projects/TextEditor.png";
 import Weather from "../../img/Projects/Weather.png";
+import TheTownie from "../../img/Projects/TheTownie.png";
 
 function Projects() {
   return (
@@ -21,6 +22,17 @@ function Projects() {
           Here are a few projects i've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TheTownie}
+              title="TheTownie"
+              description="A place to share personal thoughts and words on a public network. You are able to post, add comments and like posts. 
+              Search Function allows you to search by users in the network and allows you to view all posts by that user.
+              Every user can veiw their profile and edit or delete posts."
+              ghLink="https://github.com/TristanW63/The-Town-Soical"
+              demoLink="https://the-town-social.herokuapp.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={DadJokes}
