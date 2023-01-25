@@ -1,4 +1,4 @@
-import resumePics from "./resumePic.png"
+import resumePics from "./ResumePic.png"
 import "./Resume.css";
 import React, { useState, useEffect } from "react";
 import  Card from "react-bootstrap/Card";
