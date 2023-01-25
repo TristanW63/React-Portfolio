@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.b0f5421e.css",
-    "main.js": "/React-Portfolio/static/js/main.4ab6f625.js",
+    "main.js": "/React-Portfolio/static/js/main.3808efe2.js",
     "static/media/Randamu2.png": "/React-Portfolio/static/media/Randamu2.2e3a3ac3ed3f6998122e.png",
     "static/media/Weather.png": "/React-Portfolio/static/media/Weather.21915e224e437cc3daf5.png",
+    "static/media/TheTownie.png": "/React-Portfolio/static/media/TheTownie.597831a77ed298274b51.png",
     "static/media/resumePic.png": "/React-Portfolio/static/media/resumePic.7ca6b79561538ed910cd.png",
     "static/media/TristanWilson.pdf": "/React-Portfolio/static/media/TristanWilson.3c48601ae450a6d6da62.pdf",
     "static/media/devDesk.png": "/React-Portfolio/static/media/devDesk.87ce4542da2e1aa09ff3.png",
@@ -15,10 +16,10 @@
     "static/media/TextEditor.png": "/React-Portfolio/static/media/TextEditor.ecffe3de510a753f807c.png",
     "index.html": "/React-Portfolio/index.html",
     "main.b0f5421e.css.map": "/React-Portfolio/static/css/main.b0f5421e.css.map",
-    "main.4ab6f625.js.map": "/React-Portfolio/static/js/main.4ab6f625.js.map"
+    "main.3808efe2.js.map": "/React-Portfolio/static/js/main.3808efe2.js.map"
   },
   "entrypoints": [
     "static/css/main.b0f5421e.css",
-    "static/js/main.4ab6f625.js"
+    "static/js/main.3808efe2.js"
   ]
 }
