@@ -14,9 +14,10 @@ function AboutCard() {
             <br /> I am a <span className="blue">
               Full stack web developer
             </span>{" "}
-            eager to join a creative, problem solving team. I am confident in my
-            ability to learn and implement new technologies quickly. Below you
-            will find the languages and frameworks I am most familiar with.
+            eager to bring my skills and passion for web development to a
+            creative and problem-solving team. Throughout my studies and
+            projects, I have developed a solid understanding of how to build
+            dynamic and scalable web applications.
             <br />
             <br />
             Apart from coding, here are some other activites that I love to do!
