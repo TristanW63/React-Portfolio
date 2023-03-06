@@ -25,12 +25,12 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TheTownie}
-              title="TheTownie"
+              title="Townie"
               description="A place to share personal thoughts and words on a public network. You are able to post, add comments and like posts. 
               Search Function allows you to search by users in the network and allows you to view all posts by that user.
               Every user can veiw their profile and edit or delete posts."
-              ghLink="https://github.com/TristanW63/The-Town-Soical"
-              demoLink="https://the-town-social.herokuapp.com/"
+              ghLink="https://github.com/TristanW63/Townie-2.0"
+              demoLink="https://townie.herokuapp.com/"
             />
           </Col>
           <Col md={4} className="project-card">
