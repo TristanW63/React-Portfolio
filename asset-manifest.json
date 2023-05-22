@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.0f02b490.css",
-    "main.js": "/React-Portfolio/static/js/main.cfeb172b.js",
+    "main.js": "/React-Portfolio/static/js/main.50e37169.js",
     "static/media/Randamu2.png": "/React-Portfolio/static/media/Randamu2.2e3a3ac3ed3f6998122e.png",
     "static/media/Weather.png": "/React-Portfolio/static/media/Weather.21915e224e437cc3daf5.png",
     "static/media/TheTownie.png": "/React-Portfolio/static/media/TheTownie.597831a77ed298274b51.png",
-    "static/media/ResumePic.png": "/React-Portfolio/static/media/ResumePic.d3f2f58b21e9fc7bf25c.png",
+    "static/media/ResumePic.png": "/React-Portfolio/static/media/ResumePic.430e6980353f550f67fa.png",
     "static/media/devDesk.png": "/React-Portfolio/static/media/devDesk.87ce4542da2e1aa09ff3.png",
     "static/media/devs.png": "/React-Portfolio/static/media/devs.501ff32de07ab8036205.png",
     "static/media/Dadjokes.png": "/React-Portfolio/static/media/Dadjokes.37cd1c26b27471b82a4b.png",
     "static/media/holographic-circuit-board-0amzahbmmp2bg9u6.jpg": "/React-Portfolio/static/media/holographic-circuit-board-0amzahbmmp2bg9u6.48ab83838a46c384fae7.jpg",
-    "static/media/TristanWilson2.pdf": "/React-Portfolio/static/media/TristanWilson2.5b5495780648bfcc35bb.pdf",
+    "static/media/TristanWilson2.pdf": "/React-Portfolio/static/media/TristanWilson2.cd2addfcf0dd83e83eb8.pdf",
     "static/media/Scheduler.png": "/React-Portfolio/static/media/Scheduler.fe117852b3501b496587.png",
     "static/media/avatar.png": "/React-Portfolio/static/media/avatar.0d2093fa9b58efb49377.png",
     "static/media/TextEditor.png": "/React-Portfolio/static/media/TextEditor.ecffe3de510a753f807c.png",
     "index.html": "/React-Portfolio/index.html",
     "main.0f02b490.css.map": "/React-Portfolio/static/css/main.0f02b490.css.map",
-    "main.cfeb172b.js.map": "/React-Portfolio/static/js/main.cfeb172b.js.map"
+    "main.50e37169.js.map": "/React-Portfolio/static/js/main.50e37169.js.map"
   },
   "entrypoints": [
     "static/css/main.0f02b490.css",
-    "static/js/main.cfeb172b.js"
+    "static/js/main.50e37169.js"
   ]
 }
